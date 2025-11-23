@@ -7,7 +7,7 @@ for i, dienst in enumerate(diensten.keys(), start=1):
 
 # keuze gebruiker
 while True:
-    keuze = int(input("\nMaak uw keuze: "))
+    keuze = int(input("\nMaak uw keuze (1-3): "))
     if 1 <= keuze <= 3:
         selectie_dienst = list(diensten.keys())[keuze - 1]
         break
